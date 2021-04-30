@@ -9,7 +9,8 @@ require (
 	github.com/hashicorp/go-getter v1.5.2
 	github.com/hashicorp/go-retryablehttp v0.6.8
 	github.com/hashicorp/go-version v1.3.0
-	github.com/hashicorp/hcl/v2 v2.9.0
+	github.com/hashicorp/hcl/v2 v2.9.1
+	github.com/hashicorp/terraform v0.15.1
 	github.com/iancoleman/strcase v0.1.3
 	github.com/mattn/go-isatty v0.0.12
 	github.com/open-policy-agent/opa v0.26.0
@@ -17,8 +18,7 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/spf13/afero v1.6.0
 	github.com/spf13/cobra v1.1.3
-	github.com/spf13/pflag v1.0.5 // indirect
-	github.com/zclconf/go-cty v1.8.0
+	github.com/zclconf/go-cty v1.8.2
 	go.uber.org/zap v1.16.0
 	gopkg.in/src-d/go-git.v4 v4.13.1
 	gopkg.in/yaml.v2 v2.4.0
