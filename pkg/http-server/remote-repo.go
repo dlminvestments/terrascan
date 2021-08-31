@@ -90,7 +90,7 @@ func (g *APIHandler) scanRemoteRepo(w http.ResponseWriter, r *http.Request) {
 
 // ScanRemoteRepo is the actual method where a remote repo is downloaded and
 // scanned for violations
-func (s *scanRemoteRepoReq) ScanRemoteRepo(iacType, iacVersion string, cloudType []string, policyPath []string) (interface{}, error) {
+func (s *scanRemoteRepoReq) ScanRemoteRepo(iacType, iacVersion string, cloudType, policyPath []string) (interface{}, error) {
 
 	// return params
 	var (

@@ -27,7 +27,7 @@ import (
 )
 
 // RegisterCommand Registers a new command under the base command
-func RegisterCommand(baseCommand *cobra.Command, command *cobra.Command) {
+func RegisterCommand(baseCommand, command *cobra.Command) {
 	baseCommand.AddCommand(command)
 }
 

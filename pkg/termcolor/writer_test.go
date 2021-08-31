@@ -49,7 +49,7 @@ func init() {
 	}
 }
 
-func verifyLineWithStringIsColorized(s string, buf string, t *testing.T) {
+func verifyLineWithStringIsColorized(s, buf string, t *testing.T) {
 	re := regexp.MustCompile(`(?m)^(.*` + s + `.*)$`)
 	m := re.FindString(buf)
 	if !strings.Contains(m, ColorPrefix) {
