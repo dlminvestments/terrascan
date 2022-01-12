@@ -16,7 +16,7 @@ require (
 	github.com/open-policy-agent/opa v0.28.0
 	github.com/pelletier/go-toml v1.9.4
 	github.com/pkg/errors v0.9.1
-	github.com/spf13/afero v1.6.0
+	github.com/spf13/afero v1.8.0
 	github.com/spf13/cobra v1.1.3
 	github.com/zclconf/go-cty v1.10.0
 	go.uber.org/zap v1.16.0
