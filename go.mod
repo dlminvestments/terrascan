@@ -11,7 +11,7 @@ require (
 	github.com/hashicorp/go-version v1.4.0
 	github.com/hashicorp/hcl/v2 v2.10.0
 	github.com/hashicorp/terraform v0.15.3
-	github.com/iancoleman/strcase v0.1.3
+	github.com/iancoleman/strcase v0.2.0
 	github.com/mattn/go-isatty v0.0.14
 	github.com/open-policy-agent/opa v0.28.0
 	github.com/pelletier/go-toml v1.9.4
