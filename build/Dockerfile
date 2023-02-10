@@ -18,7 +18,7 @@ RUN GOOS=${GOOS_VAL} GOARCH=${GOARCH_VAL} go build -v -ldflags "-w -s" -o /go/bi
 
 
 # -------- prod stage -------- #
-FROM alpine:3.15.4
+FROM alpine:3.15
 
 # create non root user
 RUN addgroup --gid 101 terrascan && \
